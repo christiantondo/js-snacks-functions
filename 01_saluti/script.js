@@ -12,6 +12,6 @@ function printName(string) {
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-printName("Mario")
+console.log(printName(string))
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
