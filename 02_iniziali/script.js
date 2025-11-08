@@ -10,12 +10,14 @@ function nameInitials(array) {
         const name = array[i];
         const initial = name[0];
         initialsArray.push(initial);
-        }
-        return initialsArray;
     }
+    return initialsArray;
+}
+
 
 // Invoca la funzione qui e stampa il risultato in console
-
+result = nameInitials(names)
+console.log(result)
 
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
