@@ -6,12 +6,11 @@ const userName = 'Mario';
 
 
 // Dichiara la funzione qui.
-function printName(string) {
-    alert(`Ciao ${string} benvenuto su questo sito web`)
-    console.log(`L'utente ${string} ha effettuato l'accesso al sito` )
+const greet = (name) => {
+    return `Ciao ${name}`;
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-console.log(printName(string))
+console.log(greet(userName));
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
